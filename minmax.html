@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .carsuel-container {
+        width: 100%;
+        overflow: hidden;
+        background-color: pink;
+        margin-top: 100px;
+      }
+
+      .card {
+        flex: 0 0 auto;
+        width: 200px;
+        height: 200px;
+        background: purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      .card-treck {
+        display: flex;
+        width: max-content;
+        animation: scroll 25s linear infinite;
+     
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translate(0);
+        }
+
+        100% {
+          transform: translate(-50%);
+        }
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="carsuel-container">
+      <div class="card-treck">
+        
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+
+        <!-- duplicate -->
+
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+
+        <!-- duplicate -->
+
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+
+        <!-- duplicate -->
+
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+
+        <!-- duplicate -->
+
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+
+        <!-- duplicate -->
+
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+      </div>
+
+    
+      
+    </div>
+
+
+
+
+
+    
+
+
+
+<button class="newbtn">new here</button>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

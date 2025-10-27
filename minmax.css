@@ -1,0 +1,21 @@
+.grid{
+
+    height:100vh;
+justify-content: center;
+align-items:stretch;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,400px));
+    
+    gap: 20px;
+
+}
+
+.item{
+    background-color: black;
+    padding: 1rem;
+    border: 1px solid red;
+   
+
+    color: aliceblue;
+}
